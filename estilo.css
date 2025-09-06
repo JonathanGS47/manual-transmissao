@@ -13,6 +13,10 @@ body {
   margin: 0;
   background-color: rgb(4,2,4);
 }
+hr{
+  height: 2px;
+  background-color: #FFFF82;
+}
 .gif-loading img{
   width: 300px;
 }
