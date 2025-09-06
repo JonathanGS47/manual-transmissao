@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Inconsolata:wght@200..900&display=swap');
+
+figure {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(116, 70, 245);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaço entre os itens */
+    flex-wrap: wrap; /* permite quebrar em telas menores */
+}
+
+figure a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.4s ease;
+    padding-top: 20px;
+}
+figure a:hover {
+    transform: translateY(-30px);
+}
+
+figure img {
+    border-radius: 40px;
+    width: 200px;
+}
+
+figcaption {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
